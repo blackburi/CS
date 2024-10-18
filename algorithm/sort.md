@@ -95,3 +95,22 @@
 ![정렬3](../images/algorithm/sort/counting_sort7.png)
 
 ![정렬4](../images/algorithm/sort/counting_sort8.png)
+
+
+## 선택 정렬 (Selection Sort)
+* 주어진 자료들 중 가장 작은 값의 원소부터 차례대로 선택하여 위치를 교환하는 방식
+* 정렬 과정
+    1. 주어진 list중에서 최소값을 찾는다.
+    2. 그 값을 리스트의 맨 앞에 위치한 값과 교환한다.
+    3. 맨 처음 위치를 제외한 나머지 리스트를 대상으로 위 과정을 반복한다.
+        ```python
+        def selection(a, N) :
+            for i in range(N-1) :
+                minidx = i
+                for j in range(i+1, N) :
+                    if a[minidex] > a[j] :
+                        minidx = j # 최솟값의 index를 찾는다.
+                # 최솟값을 (i+1, N)범위의 index의 list에서 i+1의 값과 교환한다.
+                a[i], a[minidx] = a[minidx], a[i]
+        ```
+* 시간 복잡도 :O(n**2)
