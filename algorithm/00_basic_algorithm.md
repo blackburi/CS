@@ -4,9 +4,9 @@
     * 어떤 문제를 해결하기 위한 절차
 * 알고리즘을 표현하는 방법
     1. 의사코드(슈도코드)
-        * ![의사코드](../image/code1.png)
+        * ![의사코드](../images/algorithm/00_basic_algorithm/code1.png)
     2. 순서도
-        * ![순서도](../image/code2.png)
+        * ![순서도](../images/algorithm/00_basic_algorithm/code2.png)
 * 알고리즘의 성능
     1. 정확성
     2. 작업량
