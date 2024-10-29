@@ -1,4 +1,4 @@
-# floyd warchall (플로이드 워셜)
+# floyd warshall (플로이드 워셜)
 
 * 모든 정점 사이의 최단 경로를 찾는 탐색 알고리즘
 
