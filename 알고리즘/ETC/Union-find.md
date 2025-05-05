@@ -32,7 +32,7 @@ def init(n) :
 # 부모 node가 있다면 갱신해주는 함수
 def find(x) :
     if parent[x] != x :
-        # 반드시 갱신해주어야 한다.
+        # 반드시 부모 노드를 갱신해주어야 한다.
         parents[x] = find(parents[x])
     return parents[x]
 
