@@ -29,11 +29,14 @@ def init(n) :
     parent = [i for i in range(n+1)]
     return parent
 
+# 부모 node가 있다면 갱신해주는 함수
 def find(x) :
     if parent[x] != x :
-        return find(parent[x])
-    return x
+        # 반드시 갱신해주어야 한다.
+        parents[x] = find(parents[x])
+    return parents[x]
 
+# 부모 node가 다르다면 합쳐주는 함수
 def union(x, y) :
     x = find(x)
     y = find(y)
