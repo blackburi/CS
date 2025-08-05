@@ -3,7 +3,7 @@
     * [Binary search tree]()
     * [Deque]()
     * [Graph]()
-    * [Priority queue]()
+    * [Priority queue](./자료구조/PriorityQueue.md)
     * [Stack]()
     * [Tree]()
     * [Trie]()
