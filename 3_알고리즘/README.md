@@ -39,5 +39,5 @@
     * [Hash]()
     * [Math]()
     * [Simulation]()
-    * [Two pointer]()
+    * [Two pointer](./ETC/Two_Pointers.md)
     * [Union-Find](./ETC/Union-find.md)
