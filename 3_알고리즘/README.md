@@ -23,12 +23,12 @@
     * [Binary Search]()
     * [Brute Force]()
     * [Hash Search]()
-    * [KMP]()
+    * [KMP](./Search/KMP.md)
     * [Linear Search]()
     * [Recursion]()
 * 최단 거리 알고리즘
     * [Bellman Ford]()
-    * [Dijkstra]()
+    * [Dijkstra](./Path/Dijkstra.md)
     * [Floyd Warshall]()
 * 그래프 알고리즘
     * [MST]()
