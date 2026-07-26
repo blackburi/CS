@@ -34,7 +34,8 @@ def find(x) :
     if parent[x] != x :
         # 반드시 부모 노드를 갱신해주어야 한다.
         parents[x] = find(parents[x])
-    return parents[x]
+        return parents[x]
+    return x
 
 # 부모 node가 다르다면 합쳐주는 함수
 def union(x, y) :
